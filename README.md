@@ -1,0 +1,1 @@
+# QeuryDsl-tech-practice
