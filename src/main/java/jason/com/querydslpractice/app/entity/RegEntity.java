@@ -16,4 +16,6 @@ public class RegEntity {
 
     @Id
     private String regId;
+
+    private String rcpId;
 }
