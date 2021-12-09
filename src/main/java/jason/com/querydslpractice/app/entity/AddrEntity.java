@@ -23,4 +23,6 @@ public class AddrEntity {
 
     private Long aptId;
 
+    private String odrRcptId;
+
 }
