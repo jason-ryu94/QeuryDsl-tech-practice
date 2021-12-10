@@ -42,6 +42,8 @@ public class RcpEntity {
 
     private Long egnrUserId;
 
+    private LocalDateTime lastChgTime;
+
 
 
 }
