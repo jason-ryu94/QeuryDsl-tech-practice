@@ -1,7 +1,6 @@
 package jason.com.querydslpractice.app.service;
 
-import jason.com.querydslpractice.app.repository.AddrRepository;
-import jason.com.querydslpractice.app.repository.CnclRepository;
+import jason.com.querydslpractice.app.repository.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -15,4 +14,9 @@ public class QueryDslPractice {
 
     private final AddrRepository addrRepository;
     private final CnclRepository cnclRepository;
+    private final ProdMRepository prodMRepository;
+
+    private final RcpRepository rcpRepository;
+
+    private final RegRepository regRepository;
 }
