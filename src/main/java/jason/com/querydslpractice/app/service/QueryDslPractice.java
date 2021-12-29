@@ -5,8 +5,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
-import java.security.KeyStore;
-
 @Service
 @RequiredArgsConstructor
 @Slf4j
@@ -18,5 +16,6 @@ public class QueryDslPractice {
 
     private final RcpRepository rcpRepository;
 
-    private final RegRepository regRepository;
+    private final RegRepository repository;
+
 }
