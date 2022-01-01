@@ -18,4 +18,5 @@ public class QueryDslPractice {
 
     private final RegRepository repository;
 
+    private final ProdReposiroty prodReposiroty;
 }
